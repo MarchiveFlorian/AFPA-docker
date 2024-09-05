@@ -1,0 +1,44 @@
+Quiz sur la virtualisation
+1. Le concept de virtualisation permet de faire cohabiter plusieurs systèmes indépendants sur une même machine hôte.
+
+Réponse : Vrai
+
+2. Quels pourraient être les avantages de la virtualisation ? (choix multiple)
+
+Réponses :
+- La virtualisation permet de faire tourner un système d'exploitation qui n'est pas celui de l'hôte physique.
+- Elle permet de facilement mettre en place une machine 'sandbox'.
+
+3. Comment s’appelle le processus capable d’exécuter des machines virtuelles ?
+
+Réponse : Hyperviseur
+
+Quiz sur Docker
+1. Qu’est-ce qu’un conteneur Docker ? (choix multiple)
+
+Réponses :
+- Un regroupement de toutes les dépendances (exécutables, librairies) nécessaires au fonctionnement d'une application.
+- Une instance d'image.
+
+2. Une image Docker peut être considérée comme : (choix multiple)
+
+Réponses :
+-Un modèle permettant d'instancier des conteneurs.
+
+3. Quel fichier permet de créer une image sur-mesure à partir d’une image existante ?
+
+Réponse : Dockerfile
+
+4. Un Dockerfile contient : (choix multiple)
+
+Réponses :
+- Les commandes nécessaires à la construction d'une image.
+- Un nom d'image de référence provenant du hub Docker.
+
+5. Quelle commande permet de créer une image à partir d'un fichier Dockerfile ? (choix unique)
+
+Réponse : docker build -t < nom_image >
+
+6. Un conteneur Docker est une instance d’une image avec une configuration spécifique.
+
+Réponse : Vrai
